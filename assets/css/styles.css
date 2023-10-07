@@ -534,6 +534,41 @@ home__container{
   display: grid;
 }
 
+.pricing__card{
+  row-gap: 3rem;
+  background-color: hsla(79, 6%, 64%, .07);
+  padding: 2rem;
+}
+
+.pricing__img{
+  width: 35px;
+}
+
+.pricing__shape{
+  width: 60px;
+  height: 60px;
+  background-color: var(--first-color-gray);
+  border-radius: 50%;
+  place-items: center;
+  margin-bottom: 1rem;
+}
+
+.pricing__title{
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.pricing__list{
+  row-gap: 1rem;
+}
+
+.pricing__item{
+  display: flex;
+  column-gap: .5rem;
+  align-items: center;
+  font-size: var(--small-font-size);
+}
 
 
 /*=============== CALCULATE ===============*/

@@ -570,6 +570,42 @@ home__container{
   font-size: var(--small-font-size);
 }
 
+.pricing__item i{
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.pricing__item-opacity{
+  opacity: .3;
+}
+
+.pricing__button{
+  background-color: var(--title-color);
+}
+
+.pricing__button:hover{
+  background-color: var(--title-color);
+}
+
+.pricing__card-activate{
+  background-color: var(--first-color);
+  border: 2px solid var(--first-color-light);
+}
+
+.pricing__card-activate .pricing__shape{
+  background-color: var(--first-color-light);
+}
+
+.pricing__card-activate .pricing__item i{
+  color: var(--title-color);
+}
+
+.pricing__card-activate .pricing__title,
+.pricing__card-activate .pricing__number,
+.pricing__card-activate .pricing__item{
+  color: var(--title-color-black);
+}
+
 
 /*=============== CALCULATE ===============*/
 

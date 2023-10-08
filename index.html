@@ -255,13 +255,13 @@
                                 <li class="pricing__item">
                                     <i class="ri-checkbox-circle-line"></i>01 Sweatshirt
                                 </li>
-                                <li class="pricing__item">
+                                <li class="pricing__item pricing__item-opacity">
                                     <i class="ri-checkbox-circle-line"></i>01 Bottle of Protein
                                 </li>
-                                <li class="pricing__item">
+                                <li class="pricing__item pricing__item-opacity">
                                     <i class="ri-checkbox-circle-line"></i>Access to Videos
                                 </li>
-                                <li class="pricing__item">
+                                <li class="pricing__item pricing__item-opacity">
                                     <i class="ri-checkbox-circle-line"></i>Muscle Stretching
                                 </li>
                             </ul>
@@ -271,7 +271,7 @@
                             </a>
                         </article>
 
-                        <article class="pricing__card">
+                        <article class="pricing__card pricing__card-activate">
                             <header class="pricing__header">
                                 <div class="pricing__shape">
                                     <img src="/assets/img/pricing2.png" alt="pricing image" class="pricing__img">
@@ -291,10 +291,10 @@
                                 <li class="pricing__item">
                                     <i class="ri-checkbox-circle-line"></i>01 Bottle of Protein
                                 </li>
-                                <li class="pricing__item">
+                                <li class="pricing__item pricing__item-opacity">
                                     <i class="ri-checkbox-circle-line"></i>Access to Videos
                                 </li>
-                                <li class="pricing__item">
+                                <li class="pricing__item pricing__item-opacity">
                                     <i class="ri-checkbox-circle-line"></i>Muscle Stretching
                                 </li>
                             </ul>
@@ -304,7 +304,7 @@
                             </a>
                         </article>
 
-                        <article class="pricing__card">
+                        <article class="pricing__card ">
                             <header class="pricing__header">
                                 <div class="pricing__shape">
                                     <img src="/assets/img/pricing3.png" alt="pricing image" class="pricing__img">
@@ -342,7 +342,37 @@
 
             <!--==================== CALCULATE ====================-->
             <section class="calculate section">
-                
+                <div class="calculate__container container grid">
+                    <div class="calculate__content">
+                        <div class="section__titles">
+                            <h1 class="section__title-border">CALCULATE</h1>
+                            <h1 class="section__title">YOUR BMI</h1>
+                        </div>
+
+                        <p class="calculate__description">
+                            The body mass index (BMI) calculator calculates 
+                            body mass index from your weight and height.
+                        </p>
+
+                        <form action="" class="calculate__form" id="calculate-form">
+                            <div class="calculate__box">
+                                <input type="number" placeholder="Height" class="calculate__input" id="calculate-cm">
+                                <label for="" class="calculate__label">cm</label>
+                            </div>
+                            <div class="calculate__box">
+                                <input type="number" placeholder="Weight" class="calculate__input" id="calculate-kg">
+                                <label for="" class="calculate__label">kg</label>
+                            </div>
+
+                            <button type="submit" class="button button__flex">
+                                Calculate Now <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </form>
+                        <p class="calculate__message" id="calculate-message"></p>
+                    </div>
+
+                    <img src="/assets/img/calculate-img.png" alt="calculate image" class="calculate__img">
+                </div>
             </section>
         </main>
 
